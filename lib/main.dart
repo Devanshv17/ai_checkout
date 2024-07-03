@@ -55,6 +55,12 @@ class _SelfCheckoutScreenState extends State<SelfCheckoutScreen> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
+                  SizedBox(width: 4),
+                  Icon(
+                    Icons.circle,
+                    color: Colors.red,
+                    size: 10,
+                  ),
                   Text(
                     'YOU ARE UNDER SURVEILLANCE',
                     style: TextStyle(
@@ -63,12 +69,7 @@ class _SelfCheckoutScreenState extends State<SelfCheckoutScreen> {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
-                  SizedBox(width: 4),
-                  Icon(
-                    Icons.circle,
-                    color: Colors.red,
-                    size: 10,
-                  ),
+
                 ],
               ),
             ),
